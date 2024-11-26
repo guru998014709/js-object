@@ -1,0 +1,3 @@
+db.user.find({ $and: [ { "gender":"Male"}, { "gender":"Female" } ] })
+
+db.user.find({"gender": { $ne: "Male"}})
